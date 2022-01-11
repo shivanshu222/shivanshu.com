@@ -1,0 +1,38 @@
+{ margin: 0;
+    padding: 0;"
+    }
+
+header { 
+                background-image: url(../background.jpg);
+                height: 100vh;
+                background-size: cover;
+                background-position: center;
+}
+ul{                    
+                float: right;
+                 list-style-type: none;
+}
+ul li{
+           display: inline-block;
+}
+
+ul li a{
+            text-decoration: none;
+             color: #fff;
+             padding: 5px 20px;
+             boarder: 1px solid #fff;
+}
+ul li a:hover{
+           background-color: #fff;
+            color:#000
+}
+.title{
+         position: absolute;
+         top: 50%
+         teft: 50%
+         transform: translate (-90%, -50%)
+}
+.title h1{
+                color: #fff
+                font-size: 70px;
+}
